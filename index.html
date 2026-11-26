@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Delta Marine Services, established in 1991, is a Mangalore-based marine surveying and loss assessment firm offering cargo, vessel and specialist inspection services.">
+  <meta name="theme-color" content="#071d33">
+  <title>Delta Marine Services | Marine Surveyors in Mangalore</title>
+  <link rel="icon" type="image/jpeg" href="delta-marine-logo.jpg">
+  <style>
+    :root{--navy:#071d33;--navy2:#0d2d49;--blue:#1677a8;--cyan:#55c1d9;--orange:#ee4727;--ink:#152b3c;--muted:#617487;--pale:#f2f7fa;--line:#dce6ec}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.65;background:#fff}a{color:inherit;text-decoration:none}.container{width:min(1160px,calc(100% - 44px));margin:auto}
+    .topbar{background:#041321;color:#d7e3eb;font-size:11px;letter-spacing:.1em;text-transform:uppercase}.topbar .container{display:flex;justify-content:space-between;gap:18px;padding:9px 0}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid #dce6ec}
+    .nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{display:flex;align-items:center;gap:12px}.brand-logo{width:64px;height:64px;object-fit:contain;display:block;flex:0 0 auto}.brand strong{display:block;color:var(--navy);font-size:20px;letter-spacing:.13em;line-height:1.1}.brand small{display:block;color:#738597;font-size:9px;letter-spacing:.15em;margin-top:6px}
+    nav{display:flex;align-items:center;gap:24px;font-size:13px;font-weight:700;color:#344b5d}nav a:hover{color:var(--blue)}.nav-cta{background:var(--navy);color:#fff;padding:12px 18px;border-radius:2px}.menu{display:none;border:0;background:none;font-size:26px;color:var(--navy)}
+    .hero{position:relative;min-height:650px;display:flex;align-items:center;overflow:hidden;background:linear-gradient(90deg,rgba(4,20,36,.94) 0%,rgba(5,30,51,.82) 48%,rgba(5,30,51,.12) 100%),url('marine-port-hero.jpg') center/cover no-repeat;color:#fff}
+    .hero-content{position:relative;z-index:1;max-width:700px;padding:96px 0 120px}.eyebrow{font-size:11px;letter-spacing:.23em;text-transform:uppercase;color:var(--cyan);font-weight:800;display:flex;align-items:center;gap:12px}.eyebrow:before{content:"";width:34px;height:1px;background:var(--cyan)}
+    h1{font-size:clamp(42px,6vw,72px);line-height:1.04;letter-spacing:-.045em;margin:22px 0 23px;font-weight:760}.hero p{font-size:18px;color:#d9e5ed;max-width:590px;margin:0 0 32px}.actions{display:flex;gap:13px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:2px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;transition:.2s}.btn-primary{background:var(--orange);color:#fff}.btn-primary:hover{background:#ff6348;transform:translateY(-2px)}.btn-outline{border:1px solid rgba(255,255,255,.65);color:#fff}.btn-outline:hover{background:#fff;color:var(--navy)}
+    .hero-note{position:absolute;right:max(22px,calc((100vw - 1160px)/2));bottom:40px;border-left:2px solid var(--orange);padding:7px 0 7px 14px;color:#e2edf3;font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+    .trust{background:var(--navy);color:#fff}.trust-grid{display:grid;grid-template-columns:repeat(3,1fr);padding:26px 0;gap:24px}.trust-item{display:flex;align-items:center;gap:14px;border-right:1px solid #ffffff26;padding-left:8px}.trust-item:last-child{border:0}.trust-icon{width:40px;height:40px;border:1px solid #55c1d988;border-radius:50%;display:grid;place-items:center;color:var(--cyan);font-size:18px}.trust-item b{display:block;font-size:13px}.trust-item span{display:block;color:#a9bdcb;font-size:11px;margin-top:2px}
+    section{padding:88px 0}.section-tag{color:var(--blue);font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}.section-title{font-size:clamp(30px,4vw,44px);line-height:1.14;letter-spacing:-.035em;color:var(--navy);margin:13px 0 18px}.lead{color:var(--muted);font-size:15px;max-width:680px}
+    .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:68px;align-items:center}.about-image{min-height:410px;position:relative;background:linear-gradient(0deg,rgba(5,26,44,.25),rgba(5,26,44,.02)),url('https://images.unsplash.com/photo-1566847438217-76e82d383f84?auto=format&fit=crop&w=1200&q=80') center/cover;border-radius:2px}.image-caption{position:absolute;bottom:20px;left:20px;background:#fff;padding:15px 18px;max-width:225px;box-shadow:0 10px 30px #071d3320}.image-caption b{display:block;color:var(--navy);font-size:14px}.image-caption span{font-size:11px;color:var(--muted)}
+    .about-copy p{color:var(--muted);font-size:14px}.checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0 28px}.check{font-size:12px;font-weight:700;color:#294357}.check:before{content:"✓";color:var(--orange);font-weight:900;margin-right:9px}
+    .services{background:var(--pale)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:36px}.section-head .lead{max-width:440px;font-size:14px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service-card{background:#fff;padding:26px 25px 28px;border:1px solid #e5edf1;min-height:190px;transition:.2s}.service-card:hover{transform:translateY(-4px);box-shadow:0 16px 34px #0c345010;border-color:#b9d9e4}.service-icon{font-size:24px;color:var(--orange);margin-bottom:13px}.service-card h3{font-size:16px;color:var(--navy);margin:0 0 8px;line-height:1.35}.service-card p{font-size:12px;color:var(--muted);margin:0}
+    .credentials{background:#fff}.credential-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}.credential{border-top:3px solid var(--orange);background:#f7fafc;padding:22px}.credential b{display:block;color:var(--navy);font-size:15px}.credential span{font-size:12px;color:var(--muted)}
+    .approach-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:68px;align-items:start}.steps{display:grid;grid-template-columns:1fr 1fr;gap:24px}.step{border-top:1px solid var(--line);padding-top:16px}.step-no{font-size:10px;color:var(--blue);font-weight:800;letter-spacing:.14em}.step h3{font-size:15px;color:var(--navy);margin:8px 0}.step p{font-size:12px;color:var(--muted);margin:0}
+    .cta-band{background:linear-gradient(110deg,#071d33,#0c4261);color:#fff;padding:58px 0}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:35px}.cta-band h2{font-size:clamp(26px,3.5vw,38px);line-height:1.15;margin:0 0 8px}.cta-band p{color:#c3d5e0;margin:0;font-size:14px}
+    .contact{background:#f7fafc}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px}.contact-details{margin-top:25px;display:grid;gap:17px}.detail{display:flex;gap:13px;align-items:flex-start}.detail-icon{width:36px;height:36px;display:grid;place-items:center;background:#e5f2f6;color:var(--blue);border-radius:50%;flex:0 0 auto}.detail b{display:block;color:var(--navy);font-size:12px}.detail span{font-size:12px;color:var(--muted)}.email-list a{display:inline-block;margin-right:6px;color:var(--blue);text-decoration:underline;text-underline-offset:2px}
+    form{background:#fff;padding:28px;border:1px solid var(--line);box-shadow:0 15px 40px #092d4610}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{margin-bottom:14px}.field label{display:block;font-size:10px;font-weight:800;color:#42596a;margin-bottom:6px}.field input,.field textarea,.field select{width:100%;padding:12px 13px;border:1px solid #d8e3e9;border-radius:2px;font:inherit;font-size:12px;color:var(--ink);background:#fff}.field textarea{min-height:100px;resize:vertical}.field input:focus,.field textarea:focus,.field select:focus{outline:2px solid #b7e4ed;border-color:var(--blue)}.form-note{font-size:10px;color:#7a8d9b;margin-top:10px}
+    footer{background:#041321;color:#c3d1da;padding:34px 0 22px}.footer-top{display:flex;justify-content:space-between;gap:28px;align-items:center;padding-bottom:23px;border-bottom:1px solid #ffffff20}.footer-brand strong{color:#fff;letter-spacing:.15em;font-size:18px}.footer-brand span{display:block;color:#8fa5b5;font-size:9px;letter-spacing:.15em}.footer-links{display:flex;gap:20px;font-size:11px}.copyright{display:flex;justify-content:space-between;gap:20px;padding-top:18px;font-size:10px;color:#8297a6}
+    @media(max-width:850px){nav{gap:14px}.about-grid,.approach-grid,.contact-grid{gap:32px}.cards{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:680px){.topbar .container{justify-content:center}.topbar .container span:last-child{display:none}.nav{height:70px}.brand-logo{width:54px;height:54px}.brand strong{font-size:17px}.brand small{font-size:8px;letter-spacing:.1em}.menu{display:block}nav{display:none;position:absolute;top:70px;left:0;right:0;background:#fff;padding:18px 22px 24px;box-shadow:0 15px 25px #071d3318;flex-direction:column;align-items:stretch}nav.open{display:flex}nav a{padding:8px 0}.nav-cta{text-align:center}.hero{min-height:580px;background-position:60% center}.hero-content{padding:78px 0 100px}.hero p{font-size:15px}.hero-note{display:none}.trust-grid{grid-template-columns:1fr;gap:14px;padding:21px 0}.trust-item{border-right:0;border-bottom:1px solid #ffffff20;padding:0 0 13px}.trust-item:last-child{border:0;padding-bottom:0}section{padding:64px 0}.about-grid,.approach-grid,.contact-grid{grid-template-columns:1fr}.about-image{min-height:300px;order:2}.section-head,.cta-inner,.footer-top,.copyright{align-items:flex-start;flex-direction:column}.cards,.credential-grid{grid-template-columns:1fr}.steps{gap:18px}.form-row{grid-template-columns:1fr;gap:0}form{padding:21px}.footer-links{flex-wrap:wrap}.checks{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>Marine surveying • Inspection • Consultancy</span><span>DELTAMARINE.IN</span></div></div>
+  <header><div class="container nav">
+    <a class="brand" href="#home" aria-label="Delta Marine home"><img class="brand-logo" src="delta-marine-logo.jpg" alt="Delta Marine Services logo"><span><strong>DELTA MARINE</strong><small>PROFESSIONAL MARINE SURVEYORS • SINCE 1991</small></span></a>
+    <button class="menu" aria-label="Open navigation" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+    <nav><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#credentials">Credentials</a><a href="#approach">Our Approach</a><a href="#contact" class="nav-cta">Contact Us</a></nav>
+  </div></header>
+
+  <main>
+    <section class="hero" id="home"><div class="container"><div class="hero-content">
+      <div class="eyebrow">Mangalore • Karnataka • India</div>
+      <h1>Professional Marine Surveyors.<br>Trusted Since 1991.</h1>
+      <p>Marine surveying, loss assessment, cargo supervision and specialist inspection services from Mangalore, supporting maritime requirements across coastal Karnataka and discussing assignments at other Indian ports.</p>
+      <div class="actions"><a class="btn btn-primary" href="#services">Explore Our Services</a><a class="btn btn-outline" href="#contact">Request an Enquiry</a></div>
+    </div></div><div class="hero-note">Established 1991 • Delta Marine Services</div></section>
+
+    <div class="trust"><div class="container trust-grid">
+      <div class="trust-item"><div class="trust-icon">⌖</div><div><b>Mangalore Based</b><span>Rooted in coastal Karnataka</span></div></div>
+      <div class="trust-item"><div class="trust-icon">◇</div><div><b>Marine Surveying</b><span>Vessel, cargo and inspection services</span></div></div>
+      <div class="trust-item"><div class="trust-icon">↗</div><div><b>Since 1991</b><span>Established marine services practice</span></div></div>
+    </div></div>
+
+    <section id="about"><div class="container about-grid">
+      <div class="about-image"><div class="image-caption"><b>Delta Marine Services</b><span>Professional marine surveying since 1991</span></div></div>
+      <div class="about-copy"><div class="section-tag">About Delta Marine</div><h2 class="section-title">A local marine surveying practice with a long-standing presence.</h2>
+        <p>Established in 1991, Delta Marine Services is a Mangalore-based marine surveying firm providing marine surveying and loss assessment, marine and cargo superintendence, and specialist inspection services.</p>
+        <p>With its roots in coastal Karnataka, the company supports maritime requirements in Mangalore and can discuss assignments at other Indian ports, subject to the scope and availability of each assignment.</p>
+        <div class="checks"><div class="check">Established in 1991</div><div class="check">Marine & cargo services</div><div class="check">Specialist inspections</div><div class="check">Mangalore-based office</div></div>
+        <a class="btn btn-primary" href="#contact">Speak With Our Team</a>
+      </div>
+    </div></section>
+
+    <section class="services" id="services"><div class="container">
+      <div class="section-head"><div><div class="section-tag">What We Do</div><h2 class="section-title">Our Professional Services</h2></div><p class="lead">Marine surveying, cargo supervision and specialist inspection services for vessel owners, operators, cargo interests and other maritime stakeholders.</p></div>
+      <div class="cards">
+        <article class="service-card"><div class="service-icon">⚓</div><h3>Marine Surveyors & Loss Assessors</h3><p>Marine surveying and loss assessment assignments.</p></article>
+        <article class="service-card"><div class="service-icon">▤</div><h3>Marine & Cargo Superintendents</h3><p>Superintendence services relating to marine and cargo operations.</p></article>
+        <article class="service-card"><div class="service-icon">▦</div><h3>Container Inspection & Stuffing Supervision</h3><p>Inspection of containers and supervision of stuffing operations.</p></article>
+        <article class="service-card"><div class="service-icon">⌗</div><h3>Draft Surveys</h3><p>Draft survey services for cargo quantity assessment.</p></article>
+        <article class="service-card"><div class="service-icon">≋</div><h3>Bunker Surveys</h3><p>Survey assignments relating to bunker quantities.</p></article>
+        <article class="service-card"><div class="service-icon">⇄</div><h3>On-Hire / Off-Hire Condition Surveys</h3><p>Condition surveys at the beginning and end of a vessel's hire period.</p></article>
+        <article class="service-card"><div class="service-icon">◈</div><h3>Edible Oil Inspection</h3><p>Inspection surveys covering quantity and quality of edible oils.</p></article>
+        <article class="service-card"><div class="service-icon">▱</div><h3>Petroleum & Bulk Oil Inspection</h3><p>Inspection services for petroleum and bulk oil cargoes.</p></article>
+        <article class="service-card"><div class="service-icon">◉</div><h3>LPG & LNG Inspection</h3><p>Inspection services relating to liquefied petroleum gas and liquefied natural gas.</p></article>
+        <article class="service-card"><div class="service-icon">◇</div><h3>Vessel Pre-Purchase / Sale Inspections</h3><p>Vessel inspection services supporting purchase and sale transactions.</p></article>
+      </div>
+    </div></section>
+
+    <section class="credentials" id="credentials"><div class="container">
+      <div class="section-tag">Professional Credentials</div><h2 class="section-title">Professional Affiliations & Licence</h2>
+      <p class="lead">The following references are included in the company profile supplied by Delta Marine Services.</p>
+      <div class="credential-grid">
+        <div class="credential"><b>ASTM International – D93</b><span>ASTM International reference stated in the company profile.</span></div>
+        <div class="credential"><b>Energy Institute, UK</b><span>Membership of the Energy Institute, United Kingdom.</span></div>
+        <div class="credential"><b>IRDA Licence</b><span>Licence issued by Insurance Regulatory Authority (IRDA), as stated in the company profile.</span></div>
+      </div>
+    </div></section>
+
+    <section id="approach"><div class="container approach-grid">
+      <div><div class="section-tag">Our Approach</div><h2 class="section-title">Clear scope.<br>Careful inspection.<br>Useful reporting.</h2><p class="lead">Each assignment begins with an understanding of the client's requirement. Scope, location and availability can be discussed and confirmed before the survey is undertaken.</p></div>
+      <div class="steps">
+        <div class="step"><div class="step-no">01 / UNDERSTAND</div><h3>Discuss the requirement</h3><p>Understand the vessel, cargo, location and purpose of the requested survey.</p></div>
+        <div class="step"><div class="step-no">02 / INSPECT</div><h3>Conduct the survey</h3><p>Carry out the agreed inspection with attention to the relevant details.</p></div>
+        <div class="step"><div class="step-no">03 / DOCUMENT</div><h3>Record the findings</h3><p>Organise observations and supporting information into a clear report.</p></div>
+        <div class="step"><div class="step-no">04 / COMMUNICATE</div><h3>Present the report</h3><p>Communicate the findings and respond to assignment-related follow-up.</p></div>
+      </div>
+    </div></section>
+
+    <div class="cta-band"><div class="container cta-inner"><div><h2>Need a marine survey in Mangalore?</h2><p>Tell us about your vessel, cargo, port location and inspection requirement.</p></div><a class="btn btn-primary" href="#contact">Discuss Your Requirement →</a></div></div>
+
+    <section class="contact" id="contact"><div class="container contact-grid">
+      <div><div class="section-tag">Get In Touch</div><h2 class="section-title">Let's discuss your next survey.</h2><p class="lead">Contact Delta Marine Services with your survey or inspection requirement.</p>
+        <div class="contact-details">
+          <div class="detail"><div class="detail-icon">✉</div><div><b>Email</b><span class="email-list"><a href="mailto:deltamng@deltamarine.in">deltamng@deltamarine.in</a><br><a href="mailto:surveyormng@deltamarine.in">surveyormng@deltamarine.in</a><br><a href="mailto:accountsmng@deltamarine.in">accountsmng@deltamarine.in</a></span></div></div>
+          <div class="detail"><div class="detail-icon">☎</div><div><b>Telephone</b><span>0824-2450725 / 2450825 / 2450925 / 2457725 (Office)<br><a href="tel:+919448124725">94481 24725 (Mobile)</a></span></div></div>
+          <div class="detail"><div class="detail-icon">⌖</div><div><b>Office Address</b><span>Door No. 2-117/15 & 16, 2nd Floor, Ramnath Towers, Above Canara Bank, Kuloor–Kavoor Road, Mangalore – 575013, Karnataka, India.</span></div></div>
+        </div>
+      </div>
+      <form onsubmit="event.preventDefault(); const d=new FormData(this); const subject=encodeURIComponent('Marine survey enquiry - '+d.get('name')); const body=encodeURIComponent('Name: '+d.get('name')+'\nCompany: '+d.get('company')+'\nEmail: '+d.get('email')+'\nPhone: '+d.get('phone')+'\nService: '+d.get('service')+'\nVessel / Location: '+d.get('vessel')+'\n\nRequirement:\n'+d.get('message')); window.location.href='mailto:deltamng@deltamarine.in?subject='+subject+'&body='+body;">
+        <div class="form-row"><div class="field"><label for="name">YOUR NAME *</label><input id="name" name="name" required placeholder="Full name"></div><div class="field"><label for="company">COMPANY</label><input id="company" name="company" placeholder="Company name"></div></div>
+        <div class="form-row"><div class="field"><label for="email">EMAIL *</label><input id="email" name="email" type="email" required placeholder="name@company.com"></div><div class="field"><label for="phone">PHONE</label><input id="phone" name="phone" placeholder="+91"></div></div>
+        <div class="field"><label for="service">SERVICE REQUIRED</label><select id="service" name="service"><option value="">Select a service</option><option>Marine Surveyors & Loss Assessors</option><option>Marine & Cargo Superintendents</option><option>Container Inspection & Stuffing Supervision</option><option>Draft Survey</option><option>Bunker Survey</option><option>On-Hire / Off-Hire Condition Survey</option><option>Edible Oil Inspection</option><option>Petroleum & Bulk Oil Inspection</option><option>LPG & LNG Inspection</option><option>Vessel Pre-Purchase / Sale Inspection</option><option>Other</option></select></div>
+        <div class="field"><label for="vessel">VESSEL NAME / LOCATION</label><input id="vessel" name="vessel" placeholder="Vessel name, port or location"></div>
+        <div class="field"><label for="message">HOW CAN WE HELP? *</label><textarea id="message" name="message" required placeholder="Briefly describe your survey requirement"></textarea></div>
+        <button class="btn btn-primary" type="submit" style="border:0;cursor:pointer">Send Enquiry →</button>
+        <div class="form-note">Submitting this form opens your email application with the enquiry addressed to deltamng@deltamarine.in. It does not submit to a website database.</div>
+      </form>
+    </div></section>
+  </main>
+  <footer><div class="container"><div class="footer-top"><a class="footer-brand" href="#home"><strong>DELTA MARINE SERVICES</strong><span>PROFESSIONAL MARINE SURVEYORS • SINCE 1991</span></a><div class="footer-links"><a href="#about">About</a><a href="#services">Services</a><a href="#credentials">Credentials</a><a href="#approach">Our Approach</a><a href="#contact">Contact</a></div></div><div class="copyright"><span>© <span id="year"></span> Delta Marine Services. All rights reserved.</span><span>deltamarine.in</span></div></div></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('nav a').forEach(a=>a.addEventListener('click',()=>document.querySelector('nav').classList.remove('open')));</script>
+</body>
+</html>
