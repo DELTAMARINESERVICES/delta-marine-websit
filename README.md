@@ -1,27 +1,27 @@
-DELTA MARINE SERVICES — REGIONAL WEBSITE DRAFT
+# Delta Marine Services Website
 
-Positioning:
-Established marine surveyors serving Mangalore and discussing assignments at other Indian ports, subject to scope and availability.
+**Professional Marine Surveyors — Trusted Since 1991**  
+Mangalore, Karnataka, India.
 
-Source-derived company information:
-- Delta Marine Services (Since 1991)
-- Door No. 2-117/15 & 16, 2nd Floor, Ramnath Towers, Above Canara Bank, Kuloor–Kavoor Road, Mangalore – 575013, Karnataka, India.
-- Office: 0824-2450725, 0824-2450825, 2450925, 2457725
-- Mobile: 94481 24725
-- Emails: deltamng@deltamarine.in; surveyormng@deltamarine.in; accountsmng@deltamarine.in; pillaipks3@gmail.com
-- Credentials as stated in supplied profile: ASTM International – D93; Member of Energy Institute, UK; Licence issued by Insurance Regulatory Authority (IRDA).
-- Services: Marine Surveyors & Loss Assessors; Marine & Cargo Superintendents; Container Inspection and Stuffing Supervision; Draft Surveys; Bunker Surveys; On/Off Hire Condition Surveys; Edible Oil Inspection for Quantity and Quality; Petroleum & Bulk Oil Inspectors; LPG & LNG Inspectors; Vessel Pre-Purchase/Sale Inspections.
+This repository contains the responsive static website for Delta Marine Services.
 
-Before publication:
-1. Confirm the exact legal/business name and whether public branding should say Delta Marine or Delta Marine Services.
-2. Confirm current validity and exact wording of professional memberships, standards references and licence.
-3. Confirm all services are currently offered and clarify scope.
-4. Confirm whether all email addresses should be public.
-5. Confirm the actual geographic coverage beyond Mangalore before making specific port claims.
-6. Replace stock photography with company-owned or properly licensed photographs where available.
-7. The enquiry form uses mailto and opens the visitor's email application; it does not store submissions on a server.
+## Website files
+- `index.html` — website pages and styling
+- `delta-marine-logo.jpg` — supplied company logo
+- `marine-port-hero.jpg` — custom marine harbour hero background
+- `CNAME` — custom domain configuration for `deltamarine.in`
 
-Publishing:
-Deploy the folder containing index.html to Cloudflare Pages. Add deltamarine.in and www.deltamarine.in as custom domains and follow Cloudflare's DNS setup. Hosting on the free static plan is separate from domain registration/renewal.
+## Publishing with GitHub Pages
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, select **Deploy from a branch**.
+3. Select branch **main** and folder **/(root)**, then click **Save**.
+4. Under **Custom domain**, enter `deltamarine.in` and save.
+5. Configure the DNS records at the domain registrar (BigRock) as described in the setup instructions provided separately.
+6. After GitHub verifies DNS, enable **Enforce HTTPS**.
 
-Logo: delta-marine-logo.png is included and displayed in the website header and browser tab. It was prepared from the logo image supplied in this conversation.
+## Important notes
+- Keep the repository public when using GitHub Free Pages.
+- Preserve all existing MX, SPF, DKIM and other email-related DNS records at BigRock.
+- The website enquiry form opens the visitor's email application addressed to `deltamng@deltamarine.in`; it does not store enquiries in a website database.
+- The credentials and services displayed on the website follow the company profile supplied by Delta Marine Services. Please verify the exact current status and public wording of the licence and professional credentials before launch.
+- Replace generic supporting imagery with company-owned or properly licensed photographs when available.
